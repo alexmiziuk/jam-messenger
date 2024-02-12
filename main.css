@@ -111,12 +111,19 @@ body {
 }
 @media (max-width: 597px) {
 	.message {
+		margin-bottom: 97px;
+	}
+	.right {
+		margin-top: -84px;
+	}
+}
+@media (max-width: 580px) {
+	.message {
 		margin-bottom: 23.5px;
 	}
 	.right {
 		margin-top: -5px;
 	}
-	
 }
 @media (max-width: 489px) {
 	.main-screen {
@@ -131,17 +138,29 @@ body {
 @media (max-width: 354px) {
 	.main-screen {
 		width: 92%;
-		
 	}
 	.message {
 		max-width: 129px;
+	}
+	.message {
+		margin-bottom: 96.5px;
+	}
+	.right {
+		margin-top: -83px;
+	}
+}
+@media (max-width: 334px) {
+	.message {
+		margin-bottom: 23.5px;
+	}
+	.right {
+		margin-top: -5px;
 	}
 }
 @media (max-width: 312px) {
 	.main-screen {
 		width: 91%;
 	}
-	
 }
 @media (max-width: 279px) {
 	.main-screen {
@@ -153,6 +172,3 @@ body {
 		width: 90%;
 	}
 }
-
-
-
